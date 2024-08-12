@@ -1,0 +1,46 @@
+<form id="cityForm">
+    <h2>Exercise 1: City Form</h2>
+    <div>
+        <label for="cityName">City Name:</label>
+        <input type="string" id="cityName" name="cityName" required>
+    </div>
+    <br>
+    <div>
+        <label for="country">Country:</label>
+        <input type="string" id="country" name="country" required>
+    </div>
+    <br>
+    <div>
+        <label for="population">Population:</label>
+        <input type="number" min = "0" id="population" name="population" required>
+    </div>
+    <br>
+    <div><button type="submit">Add City</button></div>
+</form>
+<br>
+<label for="search">Search:</label>
+<input type="string" id="search" placeholder="Type to search...">
+<br>
+<table id="cityTable">
+    <thead>
+        <tr>
+            <th>City</th>
+            <th>Country</th>
+            <th>Population</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<br>
+<h2>Exercise 2: Change it Up!!!</h2>
+<div>
+    <label for="inputString">Enter a word:</label>
+    <input type="string" id="inputString" name="inputString" required>
+    <button onclick="transformString()">Transform</button>
+    <br>
+    <label for="outputString">Output String:</label>
+    <output class="result" id="result"></output>
+</div>
+<script src="./index.js"></script>
+
